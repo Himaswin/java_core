@@ -11,5 +11,16 @@ move to the main branch
 to merge
 use git merge branch-to-be-merged
 
+work in the branch
+push to the branch
+git merge to push the branches code to main
+then git push to get the branches code into main
+
 
 // merge test
+
+stash-> temporarily stores teh changes at a place to be retrived later
+git stash
+git stash pop to get back
+
+main/release/staging/develop is protected
