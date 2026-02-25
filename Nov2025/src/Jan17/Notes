@@ -1,0 +1,65 @@
+# recap
+
+Encapsulation
+
+Abstraction
+
+
+
+
+problems without abstraction
+//right coupling
+//cannot switch payment type dynamically
+//solid principle - open/closed principle
+// client knows implementation details
+//class shold be open for extension and close for modification
+
+hide how something is done
+expose what needs to be done
+enable the loose coupling
+
+
+abstract class
+it does not have a body
+No obj
+may or maynot have a abs method
+
+// upcasting - reference parent type obj child
+Payment cp = new CreditCardPayment();
+CreditCardPayment class extends payment
+
+if abstract class has a parameterized constructor then
+the class which extends it should have the constructor to initialize the fields which are present in
+constructor
+
+=============================================
+
+Interfaces
+it is a contract which a implementing class has to fulfill
+All the methods in the interface are by default public and abstract
+Make use of implements keyword to inherit the interface
+It cannot have concrete method
+All the variable/data members in the interface are by default puclic, static and final
+
+non-access modifiers-> abstract, static, sync, final
+
+final var-> its value cannot be changed
+final method->it cannot be overriden
+final class-> it cannot be inherited
+
+can we make abs class as final? -> no we cannot make abs classes final because the class which is supposed to use
+the abs class must implement the methods which is not possible if its final
+
+constructor is not allowed in a interface
+because constructor is used to initialize the abs class must have values final so no need to initialize
+Interface cannot be instantiated
+
+
+we can implement multiple interfaces in a class
+we cannnot extend multiple abs classes
+class-> class --extends
+class -> interface --implements
+interface->interface --extends
+
+-Inner class-> class defined inside a class
+-to make code more readable and maintainable
