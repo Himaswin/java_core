@@ -1,0 +1,6 @@
+                Throwable
+         Exception      Error
+
+- type of exceptions (interview)
+-checked exception(compile time exception)-IoException, InterruptedException
+-unchecked exception(runtime exception)-> Artithmetic, NullPointeer
