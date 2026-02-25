@@ -1,0 +1,12 @@
+// static methods or classes are stored in memory so 
+its important to not use static for normal methods 
+use only when specifially necessary
+
+-wrapper classes- collections work with the objects only not with primitive data types
+-int - integer
+-float-float
+
+Autoboxing->process of converting a primitive variable to wrapper classes
+Unboxing -> process of converting wrapper classes to primitive data types
+
+
