@@ -11,3 +11,7 @@ String
 final class - immutable class
  -need to have data members as final to make it completely final
  - no setter methods
+
+
+ equals and hashcode contract
+

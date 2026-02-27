@@ -1,0 +1,21 @@
+InstanceOf operator-> to check for the type of obj
+Maven - Automation build tool
+Map vs HashMap -> Hashmap is implementation of map
+put vs putifabsent
+
+
+Arraylist -- backed by Arrays
+Linkedlist -- backed by doubly linkedlist in java
+
+Default size of hashmap is 16
+arraylist of linkedlist of nodes - this is teh internal structure of hashmap
+load factor 0.75 or 75%
+
+
+each element in arraylist is linkedlist contains---> hashcode, Key, value, memoryaddress of next node
+
+Hashcode --> unique number assigned to every varibale, element, obj
+obj is same hashcode is same
+
+
+equals and hashcode contract
