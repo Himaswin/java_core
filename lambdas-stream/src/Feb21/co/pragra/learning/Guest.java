@@ -1,11 +1,14 @@
 package Feb21.co.pragra.learning;
 
+import java.util.List;
+
 public class Guest {
     private String name;
     private int age;
     private String contact;
     public String email;
     private boolean isVegetarian;
+    private List<String> interests;
 
 
     public Guest(String name, int age, String contact, String email, boolean isVegetarian) {

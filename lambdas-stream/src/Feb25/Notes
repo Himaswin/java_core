@@ -1,0 +1,9 @@
+--Functional Interface -- interface with one abstract method. It can have multiple default methods and static
+--Streams API
+
+Method referance
+Method reference is like using the method which already implemented to reduce redundant
+
+-- static created even before the obj like created first
+
+:: -- to method reference

@@ -1,2 +1,7 @@
 Streams
 ---Intermediate (lazy) -- all intermediate operations in streams are lazy then wont output anything unless you have terminal operation
+
+
+70% from core java
+
+--difference b/w comparable and comparator

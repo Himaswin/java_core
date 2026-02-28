@@ -15,3 +15,5 @@ Stream -- source of data till the data is available
 
 ---Intermediate (lazy) -- all intermediate operations in streams are lazy then wont output anything unless you have terminal operation
 ---Terminal
+
+-- Stream should be closed after usage

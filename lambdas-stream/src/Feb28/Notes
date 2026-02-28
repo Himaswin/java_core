@@ -1,0 +1,13 @@
+
+---worked in guestlist feb21
+
+flatmap -- coverters the existing streams combine and make it one stream
+--Hashmap is not threadsafe --faster
+--Hashtable is threadsafe -- slower since syncronized
+--concurrenthashmap -- when working in a multi-thread environment
+
+
+--difference b/w comparable and comparator
+Optional -- container which have
+
+--reduce
