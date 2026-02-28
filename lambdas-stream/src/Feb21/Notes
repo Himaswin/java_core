@@ -1,0 +1,17 @@
+-- Recap
+Java 8
+-functional interface -- one abstract method
+-<T> user defined type class, interface ...
+
+consumer -- functional interface which has one fuction consumes/accepts the data
+in interface -- we can have default method, static method, abstract method
+
+
+Stream API
+Stream -- source of data till the data is available
+
+--foreach is like terinary operation in the stream(last method to be called)
+
+
+---Intermediate (lazy) -- all intermediate operations in streams are lazy then wont output anything unless you have terminal operation
+---Terminal

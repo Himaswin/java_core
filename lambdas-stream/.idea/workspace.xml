@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="589b431d-6a5f-46f6-a543-355dd95cffbd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Audit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AuditorMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CustomLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Runner2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Feb21/Notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Feb21/Publish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Feb21/co/pragra/learning/Guest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Feb21/co/pragra/learning/GuestList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +61,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AuditorMain.executor": "Run",
+    "Application.GuestList.executor": "Run",
     "Application.Runner.executor": "Run",
     "Application.Runner2.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -90,23 +85,36 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Runner2">
+  <component name="RunManager" selected="Application.GuestList">
     <configuration name="AuditorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AuditorMain" />
+      <option name="MAIN_CLASS_NAME" value="Feb14.AuditorMain" />
       <module name="lambdas-stream" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GuestList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Feb21.co.pragra.learning.GuestList" />
+      <module name="lambdas-stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Feb21.co.pragra.learning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <option name="MAIN_CLASS_NAME" value="Feb14.Runner" />
       <module name="lambdas-stream" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Runner2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Runner2" />
+      <option name="MAIN_CLASS_NAME" value="Feb14.Runner2" />
       <module name="lambdas-stream" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,6 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GuestList" />
         <item itemvalue="Application.Runner2" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.AuditorMain" />
@@ -138,7 +147,7 @@
       <workItem from="1771087200900" duration="12000" />
       <workItem from="1771088048166" duration="4415000" />
       <workItem from="1772244916570" duration="1154000" />
-      <workItem from="1772247705428" duration="3414000" />
+      <workItem from="1772247705428" duration="11405000" />
     </task>
     <servers />
   </component>
