@@ -1,0 +1,23 @@
+-- Swagger -- api documentation tool
+- it is openapi -- specification on how api works
+
+-- On premises server
+
+
+-- cloud computing -- delivery of cloud computing(cpu, storage, network...) services over a network
+
+On premises
+adv -
+-security, troubleshooting, full control, no internet dependency
+
+ disadv
+ -maintaince, scalability, high investment
+
+
+ cloud
+ adv -> scalability, no upfront cost, no maintenance, high availability/accessibility, pay-as-u-go
+
+ disadv-> recurring costs, security concerns, internet dependency
+
+ EC2 elastic compute cloud
+ lambda - serverless
