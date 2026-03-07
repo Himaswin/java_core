@@ -11,12 +11,17 @@ public class Guest {
     private List<String> interests;
 
 
-    public Guest(String name, int age, String contact, String email, boolean isVegetarian) {
+    public Guest(String name, int age, String contact, String email, boolean isVegetarian, List<String> interests) {
         this.name = name;
         this.age = age;
         this.contact = contact;
         this.email = email;
         this.isVegetarian = isVegetarian;
+        this.interests = interests;
+    }
+
+    public List<String> getInterests() {
+        return interests;
     }
 
     public String getName() {

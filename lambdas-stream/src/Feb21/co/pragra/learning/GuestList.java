@@ -42,8 +42,16 @@ public class GuestList {
 //        System.out.println(collect6);
 
         String collect7 = guests.stream().map(Guest::getName).collect(Collectors.joining("-|-"));
-        System.out.println(collect7);
+//        System.out.println(collect7);
 
+        List<String> collect8 = guests.stream().flatMap(guest -> guest.getInterests().stream()).distinct().collect(Collectors.toList());
+//        System.out.println(collect8);
+
+        IntSummaryStatistics intSummaryStatistics = guests.stream().mapToInt(Guest::getAge).summaryStatistics();
+//        System.out.println(intSummaryStatistics);
+
+        DoubleSummaryStatistics doubleSummaryStatistics = guests.stream().mapToDouble(Guest::getAge).summaryStatistics();
+        System.out.println(doubleSummaryStatistics);
 
 
 //        Stream<String> stream = Stream.generate(()->"echo");
@@ -86,16 +94,16 @@ public class GuestList {
 
     }
     public static List<Guest> getGuests(){
-        Guest guest3 = new Guest("Hari", 64, "46576", "hari@maail", false);
-        Guest guest5 = new Guest("suresh", 54, "657657", "sures@mail", true);
-        Guest guest6 = new Guest("ramesh", 4, "798735", "rames@mail", false);
-        Guest guest7 = new Guest("john", 45, "4657", "john@masil", true);
-        Guest guest8 = new Guest("dev", 5, "7683", "dev@madil", true);
+        Guest guest3 = new Guest("Hari", 64, "46576", "hari@maail", false, Arrays.asList("Cricket", "Cooking"));
+        Guest guest5 = new Guest("suresh", 54, "657657", "sures@mail", true, Arrays.asList("Drawing", "Hockey"));
+        Guest guest6 = new Guest("ramesh", 4, "798735", "rames@mail", false, Arrays.asList("cycling", "Cooking") );
+        Guest guest7 = new Guest("john", 45, "4657", "john@masil", true,  Arrays.asList("cricket", "walking"));
+        Guest guest8 = new Guest("dev", 5, "7683", "dev@madil", true,  Arrays.asList("singing", "Cooking"));
 
         List<Guest> guests = new ArrayList<>();
-        guests.add(new Guest("lok", 18, "4545654", "lok@mail", true));
-        guests.add(new Guest("krish", 45, "465465", "krish@mail", false));
-        guests.add(new Guest("chen", 46, "46546", "chen@dmail", true));
+        guests.add(new Guest("lok", 18, "4545654", "lok@mail", true,  Arrays.asList("dancing", "cycling")));
+        guests.add(new Guest("krish", 45, "465465", "krish@mail", false,  Arrays.asList("skiing", "walking")));
+        guests.add(new Guest("chen", 46, "46546", "chen@dmail", true,  Arrays.asList("hockey", "drawing")));
         guests.add(guest3);
         guests.add(guest5);
         guests.add(guest6);

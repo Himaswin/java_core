@@ -5,30 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="589b431d-6a5f-46f6-a543-355dd95cffbd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Feb21/co/pragra/learning/Functional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Feb25/Learning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Feb25/MethodReferancePractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Feb25/Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Feb28/DatePractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Feb28/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Feb28/EmployeeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Feb28/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Feb28/Notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/March4/FilePractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/March4/Notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/March4/story.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambdas-stream.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lambdas-stream.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Feb21/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/Feb21/Notes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Feb21/co/pragra/learning/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Feb21/co/pragra/learning/Guest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Feb21/co/pragra/learning/GuestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Feb21/co/pragra/learning/GuestList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interview-imp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interview-imp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="39" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -72,6 +71,7 @@
     "Application.AuditorMain.executor": "Run",
     "Application.DatePractice.executor": "Run",
     "Application.EmployeeMain.executor": "Run",
+    "Application.FilePractice.executor": "Run",
     "Application.GuestList.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Runner.executor": "Run",
@@ -93,11 +93,15 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/Himaswin/IdeaProjects/lambdas-stream/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EmployeeMain">
+  <component name="RunManager" selected="Application.FilePractice">
     <configuration name="DatePractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Feb28.DatePractice" />
       <module name="lambdas-stream" />
@@ -117,6 +121,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Feb28.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilePractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="March4.FilePractice" />
+      <module name="lambdas-stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="March4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,20 +167,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Feb14.Runner2" />
-      <module name="lambdas-stream" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FilePractice" />
+        <item itemvalue="Application.GuestList" />
         <item itemvalue="Application.EmployeeMain" />
         <item itemvalue="Application.DatePractice" />
-        <item itemvalue="Application.GuestList" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Runner2" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +196,13 @@
       <workItem from="1771088048166" duration="4415000" />
       <workItem from="1772244916570" duration="1154000" />
       <workItem from="1772247705428" duration="11978000" />
-      <workItem from="1772285641220" duration="19571000" />
+      <workItem from="1772285641220" duration="19963000" />
+      <workItem from="1772563845954" duration="462000" />
+      <workItem from="1772734567279" duration="339000" />
+      <workItem from="1772738359893" duration="1985000" />
+      <workItem from="1772851212913" duration="604000" />
+      <workItem from="1772851834347" duration="4196000" />
+      <workItem from="1772893658835" duration="2258000" />
     </task>
     <servers />
   </component>

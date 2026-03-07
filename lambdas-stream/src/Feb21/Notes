@@ -17,3 +17,6 @@ Stream -- source of data till the data is available
 ---Terminal
 
 -- Stream should be closed after usage
+
+
+--flatmap takes a stream of streams and flattens it into a single stream
