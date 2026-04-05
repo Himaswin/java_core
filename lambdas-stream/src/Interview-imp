@@ -5,3 +5,13 @@ Streams
 70% from core java
 
 --difference b/w comparable and comparator
+
+throw and throws
+
+throwable top most exception class(parent)
+
+throws -- dont have to handle it whoever uses the code
+---by extending any exception class
+
+
+Interfaces --

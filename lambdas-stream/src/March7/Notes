@@ -1,0 +1,18 @@
+Maven -- build automation tool
+Using POM- project object model
+-Maven manages compilation, testing and documentation
+
+--dependencies
+    -groupId
+    -artifactId
+    -version
+
+--plugins
+    -groupId
+    -artifactId
+    -version
+
+
+
+Bean lifecycle
+spel --- spring expression language

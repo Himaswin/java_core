@@ -21,3 +21,13 @@ adv -
 
  EC2 elastic compute cloud
  lambda - serverless
+
+cloudwatch  -- to monitor resources and applications
+
+Kibana --> focus on log analysis
+Grafana --> create the dashboards to visualize the data
+Prometheus --> collect and stores the metrics pulled from the services and can send alerts also
+
+
+elasticsearch -- similar to splunk  -- analysis
+

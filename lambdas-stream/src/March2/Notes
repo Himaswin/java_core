@@ -1,0 +1,31 @@
+to create
+create table person(id int NOT Null, name varchar(50) NOT NULL, email varchar(20));
+
+insert into person(id, name, email) values(...)
+
+to modify a column
+we can use the after
+
+after table emp modify column email varchar(25) NOT NULL
+
+UNIQUE -   entry must be unique
+CHECK - specify condition it should satisfy
+
+PRIMARY KEY -> unique not null
+
+can we have unique key as foreign key
+yes
+
+primary key vs unique key
+unique key can have one null
+primary is one in a table and unique key can be multiple for table
+
+Joins - they are used to combine tables or when we want to fetch data from multiple tables
+
+inner join -- returns matching records only from both the tables
+left join -- returns all records from left and matching records
+right join -- returns all records from right and matching records
+full outer join -- returns al records from both tables
+
+
+
