@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="589b431d-6a5f-46f6-a543-355dd95cffbd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/March4/FilePractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/March4/Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/March4/story.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/IdeaProjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nov2025/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpf/.idea/jpf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/March2/Notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/March7/Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambdas-stream.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lambdas-stream.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Feb21/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/Feb21/Notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Feb21/co/pragra/learning/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Feb21/co/pragra/learning/Guest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Feb21/co/pragra/learning/GuestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Feb21/co/pragra/learning/GuestList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Feb20/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/Feb20/Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interview-imp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interview-imp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +89,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
@@ -96,9 +104,14 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RunManager" selected="Application.FilePractice">
@@ -203,6 +216,12 @@
       <workItem from="1772851212913" duration="604000" />
       <workItem from="1772851834347" duration="4196000" />
       <workItem from="1772893658835" duration="2258000" />
+      <workItem from="1772895973048" duration="4036000" />
+      <workItem from="1773196504203" duration="673000" />
+      <workItem from="1773245752474" duration="2890000" />
+      <workItem from="1773868393205" duration="314000" />
+      <workItem from="1774393579386" duration="704000" />
+      <workItem from="1775242647437" duration="6767000" />
     </task>
     <servers />
   </component>
@@ -215,7 +234,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Feb28/EmployeeMain.java</url>
           <line>10</line>
-          <properties class="Feb28.EmployeeMain" method="main">
+          <properties class="Feb28.EmployeeMain">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

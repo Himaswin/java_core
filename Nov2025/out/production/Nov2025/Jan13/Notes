@@ -1,0 +1,55 @@
+## recap
+
+Animal a = new Dog()
+Can we override static method? method hiding
+we cannot override static method
+
+Runtime polymorphism
+
+this keyword -> current obj
+
+super-> parent obj
+it is used to access the parent variables, methods and constructor
+
+
+In a class if it inherites the super class(extends) then
+in the constructor first super classes construtor is called and then the  current
+constructor
+
+
+Encapsulation-> binding of data - methods in a single unit
+data hiding to control the class
+It can give flexibility and control who access what
+
+why encapsulation
+-data protection
+-control
+-validation
+
+
+-make fields private use setters and getters to access what required
+-this way fields which shouldn't be accessed remain safe
+
+
+Modifier in java
+Access modifier-> public, private, default, protected(visible to package and in subclasses in different package)
+non access modifier-> static(belongs to class), synchronized, abstract
+
+
+
+Abstraction-> process of hiding the implementation details and showing only necessary fucntionality
+to the user
+It gives idea what suposed to be done but what you do it depends on child class
+there are 2 ways to achieve abstraction
+-abstract keyword(0-100%)
+-interfaces(100%)
+
+characteristics of abstraction
+-no obj can be created for abstract class
+-it may
+-abstract method exist only in abstract class
+
+
+
+Abstract class car -> start, break, reverse, engine
+ford

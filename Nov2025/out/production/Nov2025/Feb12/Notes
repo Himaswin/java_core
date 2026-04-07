@@ -1,0 +1,11 @@
+how hashmap is created or stored
+--- Arraylist of linkedlist
+
+map.put()
+-generates the hashcode for the element to be put
+-calculate the index with modulo function
+- checks for the hashcode in teh index
+-if present checks for key
+--if same key then replaces value
+-- if diff key then add another node
+-if not present adds new node with key and value
